@@ -27,15 +27,14 @@ client.on('ready', async () => {
     .setType('STREAMING')
     .setURL('https://www.twitch.tv/developer') //Must be a youtube video link 
     .setState('decay')
-    .setName('for 2.867 viewers')
-    .setDetails(`for 2.867 viewers [${formatTime()}]`)
+    .setName('gg./kissed')
+    .setDetails(`gg./kissed [${formatTime()}]`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1038784017203470408/1210956243368288296/34.gif?ex=65ec71e2&is=65d9fce2&hm=e94d1620a5353851d23d54663c3aa7f7185af0dc82279f058f03c2e56c6b9e6e&') //You can put links in tenor or discord and etc.
-    .setAssetsLargeText('owner') //Text when you hover the Large image
+ .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1038784017203470408/1212764364353044531/73.gif?ex=65f305d4&is=65e090d4&hm=4ab6d269adc41737a1e5a270c4323be4e64b91c0cac5b33f10768c0045e85525&') //You can put links in tenor or discord and etc.
+    .setAssetsLargeText('<3') //Text when you hover the Large image
     .setAssetsSmallImage('https://cdn.discordapp.com/emojis/967776024811147295.gif?size=96&quality=lossless') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('???') //Text when you hover the Small image
-    .addButton('law', 'https://discord.com/')
-    .addButton('selfish', 'https://e-z.bio/selfish');
+
 
   client.user.setActivity(r);
   client.user.setPresence({ status: "dnd" }); //dnd, online, idle, offline
@@ -44,7 +43,7 @@ client.on('ready', async () => {
   setInterval(() => {
     const newTime = formatTime();
     if (newTime !== prevTime) {
-      const newDetails = `for 2.867 viewers [${newTime}]`;
+      const newDetails = `gg./kissed [${newTime}]`;
       r.setDetails(newDetails);
       client.user.setActivity(r);
       prevTime = newTime;
