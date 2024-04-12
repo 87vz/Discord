@@ -30,7 +30,7 @@ client.on('ready', async () => {
     .setName('gg./kissed')
     .setDetails(`gg./kissed [${formatTime()}]`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1038784017203470408/1212764364353044531/73.gif?ex=66057ad4&is=65f305d4&hm=e27d5cf3ca63ecf5d2e69d34bb394282421e16b8b15d95fe12e31ba05a0153a2&') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1038784017203470408/1212764364353044531/73.gif?ex=662a64d4&is=6617efd4&hm=eea48e1fb65deb8ef759998c9054ce154199adbe6b4698c21950cae0894c24d8&') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('<3') //Text when you hover the Large image
     .setAssetsSmallImage('https://cdn.discordapp.com/emojis/967776024811147295.gif?size=96&quality=lossless') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('???') //Text when you hover the Small image
